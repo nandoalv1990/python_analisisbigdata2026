@@ -1,0 +1,1 @@
+#Calcula el area de un almacen, dados largo y ancho. Qué pasa si miden lo mismo?

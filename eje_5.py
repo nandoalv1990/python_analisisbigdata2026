@@ -1,5 +1,7 @@
 # Calcula el área de un almacén, dados largo y ancho
 # ¿Qué pasa si miden lo mismo?
+# Si largo es mayor que ancho
+# Si  ambos son igual o menor a cero
 
 print("Bienvenido, este programa calcula el área de un almacén")
 largo = float(input("Ingrese el largo: "))

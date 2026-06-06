@@ -10,7 +10,15 @@ class Perro(Animal):
         super().__init__(nombre, "Guau!")
     def buscar(self, cosa):
         return print(self.nombre, " busca ", cosa)
+    
+class Gato(Animal):
+    def __init__(self, nombre):
+        super().__init__(nombre, "Miau@")
+    def amasar(self, nombre, persona):
+        super().__init__(nombre, persona)
 
 perro = Perro("Albondiga")
+gato = Gato("Hamburgueso")
 
 perro.llamado()
+gato.amasar("Karlo")

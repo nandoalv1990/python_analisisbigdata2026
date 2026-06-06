@@ -13,8 +13,8 @@ while inventario > 0:
     #En cada vuelta se resta a el valor actual del inventario el valor ingresado por el usuario
     inventario = inventario - salida
     #Se imprime en nuevo valor
-    #Si el valor es menor a 200 y mayor a cero, se encuentra en estado critico
     print("Inventario restante: ", inventario, " pzs")
+    #Si el valor es menor a 200 y mayor a cero, se encuentra en estado critico
     if inventario < 200 and inventario > 0:
         print("\tALERTA!\nINVENTARIO CRITICO!!")
 #Finalmente si el inventario llega a cero, se termina el programa.

@@ -1,0 +1,1 @@
+# Sumatoria de fuerzas en newtons
